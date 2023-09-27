@@ -95,8 +95,8 @@ inquirer
     // Write the README file
     fs.writeFileSync('README.md', readmeContent);
 
-    console.log('README.md successfully created!');
+    console.log('README.md file has been created!');
   })
   .catch((error) => {
-    console.error('An error occurred:', error);
+    console.error('Error encounterd:', error);
   });
