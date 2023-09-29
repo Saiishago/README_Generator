@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+//var imageElement = require.createElement('image');
 
 
 const questions = [
@@ -25,13 +26,18 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contributing',
-    message: 'Enter contributing guidelines:',
+    name: 'motivation',
+    message: 'Why this project and what did you learn?',
   },
   {
     type: 'input',
-    name: 'questions',
+    name: 'question',
     message: 'How can a user/viewer get in touch with you?',
+  },
+  {
+    type: 'input',
+    name: 'credits',
+    message: 'Who contributed towards the completion of this project?',
   },
   {
     type: 'input',
@@ -50,8 +56,9 @@ ${answers.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
+- [Motivation](#motivation)
+- [Question](#question)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
@@ -62,19 +69,28 @@ ${answers.installation}
 
 ${answers.usage}
 
-## Contributing
+## Motivation
 
-${answers.contributing}
+${answers.motivation}
 
-## Questions
+## Question
 
-${answers.questions}
+${answers.question}
+
+## Credits
+
+${answers.credits}
+
 
 ## License
 
 This project is licensed under the ${answers.license} License.
 `;
 }
+
+//imageElement.src = 'assets/images/README.md preview file.png';
+//imageElement.alt = 'Screenshot of the preview README file';
+//document.body.appendChild(imageElement);
 
 const license = [
     "MIT License",

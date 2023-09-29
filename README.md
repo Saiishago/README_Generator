@@ -7,26 +7,32 @@ This Project has been created in order to show/allow a user to create a well str
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
+- [Motivation](#motivation)
+- [Question](#question)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
 
-This application can be invoked using either node index.js , node index or node generate-readme (bash), it all depends on what your computer allows. Before you begin, ensure you install the latest inquirer, using the command npm i inquire@(whatever the latest version is) we use 8.2.4
+This application can be invoked using either node index.js , node index or node generate-readme (bash), it all depends on what your computer allows. Before you begin, ensure you install the latest inquirer, using the command npm i inquire@(whatever the latest version is) I use 8.2.4
 
 ## Usage
 
-Click on the link, follow the video and see how the command-line application works and how you may use it in the future.
+Click on the link, follow the video how to, and see how the command line application works and how you may use it in the future.
 ![Alt text](<assets/images/README.md preview file.png>)
 
-## Contributing
+## Motivation
 
-In all honesty I do not understand this part, do they want to know who contributed towards the completion of the project or links to the websites I may have used to get more information regarding the project?
+I built this project to better understand the ins and outs of node and how to create a professional README.md file without manually creating and typing in the file as I have done in the past. Building this project has taught me that there is almost always a different way to get a task done, the easy way; which honestly gets the job done faster with little to no trouble, or the node way; satisfying to know that you are capable of doing it. I have learned that what happens behind the scenes (back-end) is a lot trickeir than what happens on stage (front-end) yet they are both equally important.
 
-## Questions
+## Question
 
 For further information please contact Salome Mphago at https://github.com/Saiishago . For the purpose of this project I will just use my contact information so a user/viewer has an idea of what to expect in this section of the file.
+
+## Credits
+
+Salome Mphago and some help from W3Schools
+
 
 ## License
 
