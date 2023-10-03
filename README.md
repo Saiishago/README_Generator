@@ -7,7 +7,7 @@ This Project has been created in order to show/allow a user to create a well str
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Personal Information](#personalinformation)
+- [UserI](#useri)
 - [Motivation](#motivation)
 - [Question](#question)
 - [Credits](#credits)
@@ -19,12 +19,12 @@ This application can be invoked using either node index.js , node index or node 
 
 ## Usage
 
-Click on the link,https://drive.google.com/file/d/13p1iqU3h_UewG3Ee0CZBxfmxQIi45ZeQ/view?usp=sharing  follow the walkthrough video and see how the command-line application works and how it could be used or improved in the future.
+Click on the link, follow the video and see how the command-line application works and how you may use it in the future. https://drive.google.com/file/d/13p1iqU3h_UewG3Ee0CZBxfmxQIi45ZeQ/view?usp=sharing
 ![Alt text](<assets/images/README.md preview file.png>)
 
-## Personal Information
+## UserI
 
-undefined
+My Github information @Saiishago and/or mphagosk@gmail.com
 
 ## Motivation
 

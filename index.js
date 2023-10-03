@@ -28,8 +28,8 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'Please enter your Github user name and or email address',
-    messasge:'personalinformation'
+    name: 'useri',
+    messasge:'Please enter your Github user name and or email address',
     //There is a miscommunication between line 31 and 32.
   },
   {
@@ -64,7 +64,7 @@ ${answers.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Personal Information](#personalinformation)
+- [UserI](#useri)
 - [Motivation](#motivation)
 - [Question](#question)
 - [Credits](#credits)
@@ -78,9 +78,9 @@ ${answers.installation}
 
 ${answers.usage}
 
-## Personal Information
+## UserI
 
-${answers.github}
+${answers.useri}
 
 ## Motivation
 
