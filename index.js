@@ -1,5 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const figlet = require('figlet');
+
 //var imageElement = require.createElement('image');
 
 
@@ -23,6 +25,12 @@ const questions = [
     type: 'input',
     name: 'usage',
     message: 'Enter usage instructions:',
+  },
+  {
+    type: 'input',
+    name: 'Please enter your Github user name and or email address',
+    messasge:'personalinformation'
+    //There is a miscommunication between line 31 and 32.
   },
   {
     type: 'input',
@@ -56,6 +64,7 @@ ${answers.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Personal Information](#personalinformation)
 - [Motivation](#motivation)
 - [Question](#question)
 - [Credits](#credits)
@@ -68,6 +77,10 @@ ${answers.installation}
 ## Usage
 
 ${answers.usage}
+
+## Personal Information
+
+${answers.github}
 
 ## Motivation
 
@@ -102,6 +115,43 @@ const license = [
     "GNU Lesser General Public License (LGPL) v3",
     "Eclipse Public License (EPL)"
 ];
+
+// Define badge information
+// const badges = [
+//   {
+//       title: "MIT License",
+//       color: 'green',
+//   },
+// ];
+
+// Function to display a badge
+// function displayBadge(badge) {
+//   console.log(`Title: ${badge.title}`);
+//   console.log(`Color: ${badge.color}`);
+//   console.log('----------------------------------');
+// }
+
+// Display all badges
+//badges.forEach(displayBadge);
+
+
+// function displayLicenseBadge() {
+//   const badgeText = 'MIT License';
+//   const font = 'Small';
+
+//   const options = {
+//     font: font,
+//   };
+//   figlet(badgeText, options, function (err,data) {
+//     if(err) {
+//       console.log('Please fix me.');
+//       console.dir(err);
+//       return;
+//     }
+//     console.log(data);
+//   });
+// }
+// displayLicenseBadge();
 
 inquirer
   .prompt(questions)
